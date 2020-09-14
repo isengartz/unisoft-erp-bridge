@@ -1,0 +1,15 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "SinHelper\\": "sin/",
+            "SinHelper\\Models\\" : "sin/models/",
+            "SinHelper\\Config\\" : "sin/config/",
+            "SinHelper\\Mappers\\" : "sin/mappers/",
+            "SinHelper\\Scripts\\" : "sin/scripts/",
+            "SinHelper\\Adapter\\" : "sin/adapter/"
+        }
+    }
+}
